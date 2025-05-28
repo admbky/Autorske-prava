@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabuľka - Porovnanie</title>
+  <title>Rozšírená tabuľka</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(to right, #00b4db, #0083b0);
-      color: white;
+      background: linear-gradient(to right, #1c92d2, #f2fcfe);
+      color: #000;
       font-size: 20px;
     }
 
@@ -18,29 +18,31 @@
       text-align: center;
       margin-top: 40px;
       font-size: 32px;
+      color: #003366;
     }
 
     table {
       width: 95%;
-      margin: 30px auto;
+      margin: 40px auto;
       border-collapse: collapse;
+      background-color: #ffffffcc;
+      color: #000;
       font-size: 20px;
-      background-color: rgba(255, 255, 255, 0.1);
     }
 
     th, td {
-      padding: 16px;
+      padding: 20px;
       text-align: left;
-      border: 1px solid #ffffff80;
+      border: 1px solid #ccc;
     }
 
     th {
-      background-color: rgba(0, 0, 0, 0.4);
-      font-size: 22px;
+      background-color: #003366;
+      color: white;
     }
 
     tr:nth-child(even) {
-      background-color: rgba(255, 255, 255, 0.08);
+      background-color: #f0f8ff;
     }
 
     a {
@@ -48,46 +50,43 @@
       text-align: center;
       margin: 40px auto;
       font-size: 20px;
-      color: #ffff66;
+      color: #003366;
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h2>Porovnanie softvérov</h2>
+  <h2>Porovnanie typov softvéru</h2>
 
   <table>
     <tr>
-      <th>Názov softvéru</th>
-      <th>Typ licencie</th>
-      <th>Hlavné výhody</th>
+      <th>Typ</th>
+      <th>Charakteristika</th>
+      <th>Príklady</th>
     </tr>
     <tr>
-      <td>Linux</td>
-      <td>Open Source</td>
-      <td>Bezplatný, bezpečný, prispôsobiteľný</td>
+      <td>Free software</td>
+      <td>Sloboda používania, úpravy a zdieľania softvéru</td>
+      <td>GNU, LibreOffice</td>
     </tr>
     <tr>
-      <td>Windows</td>
-      <td>Komerčný</td>
-      <td>Jednoduché používanie, podpora hier a programov</td>
+      <td>Open source</td>
+      <td>Dostupnosť zdrojového kódu, no nie vždy úplná sloboda</td>
+      <td>Firefox, Linux</td>
     </tr>
     <tr>
-      <td>LibreOffice</td>
-      <td>Open Source</td>
-      <td>Bezplatná alternatíva k MS Office, podpora dokumentov</td>
-    </tr>
-    <tr>
-      <td>Microsoft Office</td>
-      <td>Komerčný</td>
-      <td>Profesionálne nástroje, cloudové služby</td>
+      <td>Proprietárny softvér</td>
+      <td>Uzavretý kód, obmedzené možnosti použitia</td>
+      <td>Microsoft Office, Adobe Photoshop</td>
     </tr>
   </table>
 
   <a href="index.html">← Návrat na hlavnú stránku</a>
 
 </body>
+</html>
+
 </html>
 
 
