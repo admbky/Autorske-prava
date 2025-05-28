@@ -11,27 +11,33 @@
             padding: 0;
             background: linear-gradient(to right, #ff4e50, #f9d423);
             color: white;
-            font-size: 20px;
+            font-size: 24px; /* Zväčšený text */
         }
 
         h2 {
             text-align: center;
             margin-top: 40px;
-            font-size: 32px;
+            font-size: 38px; /* Zväčšený nadpis */
             color: #ffffff;
         }
 
         ul {
             margin: 20px auto;
             width: 90%;
-            line-height: 1.8;
+            line-height: 2;
             list-style-type: square;
         }
 
-        img {
-            display: block;
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
             margin: 30px auto;
-            max-width: 85%;
+        }
+
+        .image-row img {
+            width: 45%;
             border-radius: 10px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
@@ -41,8 +47,9 @@
             text-align: center;
             margin: 40px auto;
             color: #ffff66;
-            font-size: 20px;
+            font-size: 24px;
             text-decoration: underline;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -51,37 +58,22 @@
     <h2>Vplyv pirátstva na tvorcov</h2>
 
     <ul>
-        <li>
-            Pirátstvo spôsobuje autorom, vývojárom, hudobníkom a filmovým spoločnostiam obrovské finančné straty. Nelegálne sťahovanie znamená, že tvorcovia nedostanú žiadnu odmenu za svoju prácu.
-        </li>
-        <li>
-            Mnohé firmy musia kvôli stratám znižovať rozpočty, prepúšťať zamestnancov alebo dokonca zrušiť budúce projekty.
-        </li>
-        <li>
-            V oblasti hier a filmu to často vedie k tomu, že sa uprednostňujú bezpečné, komerčné tituly a znižuje sa podpora pre originálnu tvorbu.
-        </li>
-        <li>
-            Organizácie ako BSA, IFPI či MPAA bojujú proti pirátstvu sledovaním IP adries a podávaním žalôb na porušovateľov zákona.
-        </li>
-        <li>
-            Okrem ekonomických strát má pirátstvo aj morálny rozmer – zneužíva cudziu tvorbu bez súhlasu a rešpektu k autorovi.
-        </li>
-        <li>
-            V dnešnej dobe existuje množstvo legálnych spôsobov, ako podporiť autorov: streamovanie, nákup digitálneho obsahu alebo príspevky na open source projekty.
-        </li>
-        <li>
-            Každý legálny krok zo strany používateľa podporuje spravodlivé a kreatívne digitálne prostredie.
-        </li>
+        <li>Pirátstvo spôsobuje autorom, vývojárom, hudobníkom a filmovým spoločnostiam obrovské finančné straty.</li>
+        <li>Nelegálne sťahovanie znamená, že tvorcovia nedostanú žiadnu odmenu za svoju prácu.</li>
+        <li>Mnohé firmy musia kvôli stratám znižovať rozpočty, prepúšťať zamestnancov alebo dokonca zrušiť budúce projekty.</li>
+        <li>V oblasti hier a filmu to často vedie k tomu, že sa uprednostňujú bezpečné, komerčné tituly a znižuje sa podpora pre originálnu tvorbu.</li>
+        <li>Organizácie ako BSA, IFPI či MPAA bojujú proti pirátstvu sledovaním IP adries a podávaním žalôb.</li>
+        <li>Pirátstvo má aj morálny rozmer – zneužíva cudziu tvorbu bez súhlasu a rešpektu k autorovi.</li>
+        <li>Existuje množstvo legálnych spôsobov, ako podporiť autorov: streamovanie, nákup digitálneho obsahu alebo podpora open source.</li>
+        <li>Každý legálny krok zo strany používateľa podporuje spravodlivé a kreatívne digitálne prostredie.</li>
     </ul>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Stop-piracy.jpg" alt="Stop Pirátstvu">
-
-    <img src="https://cdn.pixabay.com/photo/2016/10/28/17/19/hacker-1783408_1280.jpg" alt="Nelegálne sťahovanie a bezpečnosť">
+    <div class="image-row">
+        <img src="obrazky\piratstvo.jpg" alt="pirátstvo"> 
+        <img src="obrazky\pirat.jpg" alt="notebook">
+    </div>
 
     <a href="index.html">← Návrat na hlavnú stránku</a>
 
 </body>
 </html>
-
-
-
